@@ -1,0 +1,52 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.24789361205044128 0.8419205337096247 0.47928965357358383 3.2026524427364267
+  position -0.37927914914120514 1.8183455814822125 -1.2913236301914288
+}
+Solid {
+  rotation 0 1 0 -0.785395307179586
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0.07 0 0
+  floorSize 0.7 0.7
+  floorTileSize 0.3 0.3
+}
+CardboardBox {
+  translation -0.00596912 0.0199372 0.140604
+  rotation 0.18527020146873274 -0.18527020171673766 -0.9650647153448181 1.6063489511754656
+  size 0.04 0.04 0.04
+  mass 1
+}
+Solid {
+  translation 0 0.09 0
+  name "solid(1)"
+}
+OilBarrel {
+  translation -0.129314 0.0249615 -0.0379855
+  rotation -0.7260272450668191 -1.930063485110542e-11 -0.6876659359170593 3.1415926527507385
+  height 0.05
+  radius 0.025
+  physics Physics {
+  }
+}
+WoodenBox {
+  translation 0.216105 0.0496076 0.011712
+  rotation 4.149213964239754e-07 0.9999999999913043 -4.1495936514893385e-06 -0.07013352392959316
+  size 0.06 0.06 0.06
+  immersionProperties [
+    ImmersionProperties {
+    }
+  ]
+}
+E-puck {
+  translation -0.135815 -7.18837e-05 -0.233434
+  rotation 6.620891356865341e-05 0.9999999586035658 -0.00028001651081463545 2.2574338045709195
+  controller "leds"
+}
